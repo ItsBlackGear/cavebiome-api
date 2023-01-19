@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "cavebiomeapi",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "CaveBiomeAPI",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -12,16 +12,16 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/cavebiomeapi/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.groupid.examplemod.core.fabric.ExampleModFabric"
+      "com.blackgear.cavebiomeapi.core.fabric.CaveBiomeAPIFabric"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "cavebiomeapi.mixins.json",
+    "cavebiomeapi-common.mixins.json"
   ],
   "depends": {
     "fabric": "*",
