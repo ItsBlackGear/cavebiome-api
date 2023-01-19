@@ -1,0 +1,9 @@
+accessWidener   v2  named
+
+accessible method net/minecraft/world/level/block/state/properties/WoodType register (Lnet/minecraft/world/level/block/state/properties/WoodType;)Lnet/minecraft/world/level/block/state/properties/WoodType;
+accessible method net/minecraft/world/level/block/FireBlock setFlammable (Lnet/minecraft/world/level/block/Block;II)V
+
+accessible method net/minecraft/core/Registry registerSimple (Lnet/minecraft/resources/ResourceKey;Ljava/util/function/Supplier;)Lnet/minecraft/core/Registry;
+
+mutable field net/minecraft/world/item/AxeItem STRIPABLES Ljava/util/Map;
+accessible field net/minecraft/world/item/AxeItem STRIPABLES Ljava/util/Map;
