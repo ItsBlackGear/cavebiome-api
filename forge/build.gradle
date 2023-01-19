@@ -14,8 +14,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "cavebiomeapi-common.mixins.json"
-        mixinConfig "cavebiomeapi.mixins.json"
+        mixinConfig "cavebiomes-common.mixins.json"
+        mixinConfig "cavebiomes.mixins.json"
     }
 }
 

@@ -4,7 +4,7 @@ loaderVersion = "[36,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "cavebiomeapi"
+modId = "cavebiomes"
 version = "${version}"
 displayName = "CaveBiomeAPI"
 authors = "Me!"
@@ -13,14 +13,14 @@ This is an example description! Tell everyone what your mod is about!
 '''
 #logoFile = ""
 
-[[dependencies.cavebiomeapi]]
+[[dependencies.cavebiomes]]
 modId = "forge"
 mandatory = true
 versionRange = "[36,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.cavebiomeapi]]
+[[dependencies.cavebiomes]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.5,)"
